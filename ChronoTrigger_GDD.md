@@ -17,90 +17,72 @@
 Table of Contents (draft 2)
 ===========================
 
-1. Introduction
-    1.1 Overview of the game concept
-    1.2 Target audience and platform
-    1.3 Story synopsis
-
-2. Characters
-    2.1 Main characters and their backstories
-    2.2 Minor characters and their roles in the story
-    2.3 Character progression and customization
-
-3. Gameplay
-    3.1 Battle system mechanics
-        3.1.1 Basic battle mechanics
-        3.1.2 Special abilities and combos
-        3.1.3 Enemy types and behavior
-    3.2 Exploration and world navigation
-        3.2.1 Open world design and map system
-        3.2.2 Vehicles and transportation
-    3.3 Puzzle-solving and mini-games
-        3.3.1 Environmental puzzles and obstacles
-        3.3.2 Optional mini-games and side quests
-    3.4 Time travel and its effects on gameplay
-        3.4.1 Time period accessibility and restrictions
-        3.4.2 Consequences of player actions in different eras
-
-4. Environments
-    4.1 Overview of each time period and location
-        4.1.1 Prehistoric era
-        4.1.2 Antiquity era
-        4.1.3 Middle Ages era
-        4.1.4 Present era
-        4.1.5 Future era
-    4.2 Art style and visual design
-        4.2.1 Character and creature design
-        4.2.2 Environment and world design
-    4.3 Environmental puzzles and obstacles
-        4.3.1 Natural terrain and obstacles
-        4.3.2 Man-made structures and puzzles
-
-5. Storyline
-    5.1 Plot structure and major story beats
-        5.1.1 Beginning of the game
-        5.1.2 Mid-point of the game
-        5.1.3 Climax and final battle
-    5.2 Character arcs and relationships
-        5.2.1 Main character development and relationships
-        5.2.2 Minor character development and relationships
-    5.3 Multiple endings and their conditions
-        5.3.1 How to achieve each ending
-        5.3.2 Differences between endings
-
-6. Audio
-    6.1 Sound effects and music composition
-        6.1.1 Sound effects design and implementation
-        6.1.2 Original music composition and recording
-    6.2 Voice acting (if applicable)
-        6.2.1 Casting and recording process
-        6.2.2 Localization considerations
-
-7. User Interface
-    7.1 Menu design and functionality
-        7.1.1 Main menu and sub-menus
-        7.1.2 Customization options
-    7.2 HUD and status displays
-        7.2.1 Health and status indicators
-        7.2.2 Inventory and item management
-    7.3 Control scheme and button mapping
-        7.3.1 Default control scheme
-        7.3.2 Customization options
-
-8. Technical Information
-    8.1 Programming languages and tools used
-        8.1.1 Game engine and middleware
-        8.1.2 Other software used in development
-    8.2 Hardware specifications and requirements
-    8.3 Quality assurance and testing procedures
-
-9. Marketing and Distribution
-    9.1 Targeted advertising and promotion strategies
-    9.2 Distribution methods and platforms
-
-10. Conclusion
-    10.1 Wrap-up of the game design document
-    10.2 Future plans and potential expansions.
+- [Chrono Trigger: Game Design Document](#chrono-trigger-game-design-document)
+- [Table of Contents (draft 2)](#table-of-contents-draft-2)
+- [Table of Contents (draft 1)](#table-of-contents-draft-1)
+- [1. Introduction](#1-introduction)
+  - [1.1 Overview of the game concept](#11-overview-of-the-game-concept)
+    - [1.1.1 Abstract](#111-abstract)
+    - [1.1.2 Expanded Game Concept](#112-expanded-game-concept)
+  - [1.2 Target audience and platform](#12-target-audience-and-platform)
+  - [1.3 Story synopsis](#13-story-synopsis)
+- [2. Characters](#2-characters)
+  - [2.1 Main characters and their backstories](#21-main-characters-and-their-backstories)
+    - [2.1.1 Party Members (Player Characters)](#211-party-members-player-characters)
+    - [2.1.2 Important NPCs](#212-important-npcs)
+  - [2.2 Minor characters and their roles in the story](#22-minor-characters-and-their-roles-in-the-story)
+  - [2.3 Character progression and customization](#23-character-progression-and-customization)
+    - [2.3.1 Experience Points and Levels](#231-experience-points-and-levels)
+    - [2.3.2 Tech Points and Techs](#232-tech-points-and-techs)
+    - [2.3.3 Equipment and Items](#233-equipment-and-items)
+    - [2.3.4 Dual and Triple Techs](#234-dual-and-triple-techs)
+    - [2.3.5 New Game Plus](#235-new-game-plus)
+- [3. Gameplay](#3-gameplay)
+  - [3.1 Battle System Mechanics](#31-battle-system-mechanics)
+    - [3.1.1 Overview](#311-overview)
+    - [3.1.2 Actions](#312-actions)
+    - [3.1.3 Techs](#313-techs)
+      - [Dual/Triple Techs](#dualtriple-techs)
+    - [3.1.4 Active Time Battle (ATB)](#314-active-time-battle-atb)
+    - [3.1.5 Status Effects](#315-status-effects)
+    - [3.1.6 Experience and Leveling Up](#316-experience-and-leveling-up)
+    - [3.1.7 Boss Battles](#317-boss-battles)
+    - [3.1.8 New Game+](#318-new-game)
+    - [3.1.9 Conclusion](#319-conclusion)
+- [4. Environments](#4-environments)
+  - [4.1 Overview of each time period and location](#41-overview-of-each-time-period-and-location)
+- [5. Storyline](#5-storyline)
+  - [5.1 Plot structure and major story beats](#51-plot-structure-and-major-story-beats)
+    - [5.1.1 Overview](#511-overview)
+    - [5.1.2 Main Story Beats](#512-main-story-beats)
+    - [5.1.3 Optional Quests and Rewards](#513-optional-quests-and-rewards)
+  - [5.2 Character arcs and relationships](#52-character-arcs-and-relationships)
+    - [2.1 Crono](#21-crono)
+    - [2.2 Marle](#22-marle)
+    - [2.3 Lucca](#23-lucca)
+    - [2.4 Frog](#24-frog)
+    - [2.5 Robo](#25-robo)
+    - [2.6 Ayla](#26-ayla)
+    - [2.7 Magus](#27-magus)
+  - [5.3 Multiple endings and their conditions](#53-multiple-endings-and-their-conditions)
+- [6. Audio](#6-audio)
+  - [6.1 Sound effects](#61-sound-effects)
+  - [6.2 Music composition](#62-music-composition)
+  - [6.3 Voice acting (if applicable)](#63-voice-acting-if-applicable)
+- [7. User Interface](#7-user-interface)
+  - [7.1 Menu design and functionality](#71-menu-design-and-functionality)
+  - [7.2 HUD and status displays](#72-hud-and-status-displays)
+  - [7.3 Control scheme and button mapping](#73-control-scheme-and-button-mapping)
+- [8. Technical Information](#8-technical-information)
+  - [8.1 Programming languages and tools used](#81-programming-languages-and-tools-used)
+  - [8.2 Hardware specifications and requirements](#82-hardware-specifications-and-requirements)
+  - [8.3 Quality assurance and testing procedures](#83-quality-assurance-and-testing-procedures)
+- [9. Marketing and Distribution](#9-marketing-and-distribution)
+  - [9.1 Targeted advertising and promotion strategies](#91-targeted-advertising-and-promotion-strategies)
+  - [9.2 Distribution methods and platforms](#92-distribution-methods-and-platforms)
+- [10. Conclusion](#10-conclusion)
+  - [10.1 Wrap-up of the game design document](#101-wrap-up-of-the-game-design-document)
+  - [10.2 Future plans and potential expansions.](#102-future-plans-and-potential-expansions)
 
 
 Table of Contents (draft 1)
